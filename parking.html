@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Kristina Dymond</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Shrikhand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+	<header class="col10">
+		<div class="name col2 indent1 float">
+			<h1><a href="http://www.kristinadymond.com">Kristina<br>Dymond</a></h1>
+			<p>A graphic designer with a<br>passion for UI/UX design<br><br><a href="index.html">Work<br><a href="about.html">About</a><br><a href="resume.pdf">Resume</a></p>
+		</div>
+			</header>
+	
+	<section class="content col10 ">
+		<section class="subnav col10 indent2 ">
+			<p class="col1 float left "><a href="louisxiv.html">&#65513;</a></p>
+			<p class="col1 indent5 float right "><a href="floss.html">&#65515;</a></p>
+		</section>
+		<section class="indent3 ">
+		<h3>Bike Parking Tickets</h3>
+		</section>
+	</section>
+	
+	<footer>
+		<div class="col3 indent3 float border">
+			<p>words go here</p>
+		</div>
+		
+	</footer>
+
+<script>
+	$(window).scroll(function()
+	{
+		if($(this).scrollTop()>30)
+		{
+		$('.name').addClass('sticky');
+		} else{
+			$('.name').removeClass('sticky');
+		};
+	});	
+</script>
+<script>
+	$(window).scroll(function()
+	{
+		if($(this).scrollTop()>90)
+		{
+		$('.page').addClass('sticky');
+		} else{
+			$('.page').removeClass('sticky');
+		};
+	});	
+</script>
+
+</body>
+</html>	
