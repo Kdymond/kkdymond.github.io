@@ -16,7 +16,6 @@ h1 {
 
 p {
 	padding:5%;
-	text-align: right;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -59,12 +58,32 @@ a {
 	color: black
 }
 
+.catagory {
+	font-weight: 900;
+	font-size: 20px;
+}
 
+ol {
+	list-style-position: inside;
+	list-style-type: none;
+	text-align: right;
+}
 
+float border  {
+	padding-left: 5%;
+}
 
+img {
+	padding-left: 5%;
+	max-width:100%; 
+	margin:2em .5em .5em 0;
+}
 
-
-
+.figcaption {
+	margin-bottom:3em; 
+	padding-left: 10%;
+	padding-right: 10%;
+	}
 
 
 .subnav
@@ -102,9 +121,7 @@ a {
 	/*style*/
 	header{ margin:3em 0 6em 0; }
 	aside{margin:2em 0 1em 0; }
-	footer{clear:left; margin-top:6em; padding:3em 0 3em 0; }
-	img{max-width:100%; margin:2em .5em .5em 0; }
-	figcaption{margin-bottom:3em; }
+	footer{clear:left; margin-top:3em; padding-left: 5%; }
 	
 	.space{margin-top:3em; margin-bottom:1em; font-style:italic; }
 	.desc{margin-left:7em; }
